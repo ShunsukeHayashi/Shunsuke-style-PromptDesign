@@ -38,3 +38,48 @@
 ## ライセンス
 
 このリポジトリのコンテンツは、シュンスケの提供するプロンプトデザインに関する情報を共有することを目的としています。
+
+
+
+
+# Shunsuke-style "Prompt Design" Repository
+
+This repository is a place to share Shunsuke-style prompt designs and explore prompts for ChatGPT across various tasks and concepts.
+
+## About Shunsuke-style Prompt Design
+
+Shunsuke-style prompt design is Shunsuke's unique approach to leveraging ChatGPT. This method emphasizes dialogue and creative applications rather than task-oriented prompts, striving to explore innovative ways of using AI.
+
+## How to Use
+
+1. **Share Prompts**: Share examples of Shunsuke-style prompt designs in the `prompts/` directory as Markdown files.
+
+2. **Explore Prompts**: Look at other design examples and try creating your own prompt designs using the Shunsuke-style approach. It's also a good idea to experiment with new approaches using Shunsuke's ideas.
+
+## Prompt Design Format
+
+When sharing prompt design examples, please follow this format:
+
+```markdown
+## Theme: [Theme of the Prompt Design]
+
+**Approach**: Overview of the idea or concept behind the prompt design
+**Example**:
+- Prompt: Specific example of a prompt
+- Response: Imagined response from ChatGPT
+
+[Detailed description of the prompt design]
+```
+
+## Prompt Examples
+
+Provide detailed information about prompt examples here.
+
+## About Shunsuke
+
+Shunsuke is an AI prompt expert and advocate for prompt design. For more details, see [Shunsuke's Profile](https://twitter.com/HaveShun).
+
+## License
+
+The contents of this repository are meant for sharing information about Shunsuke's provided prompt designs.
+
