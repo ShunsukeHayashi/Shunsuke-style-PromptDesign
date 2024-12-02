@@ -4,7 +4,7 @@ import fs from 'fs'; // fsモジュールをインポート
 
 const drive = google.drive({
   version: 'v3',
-  auth: 'AIzaSyBkvgvMR7Hycf68LyODNiKz29iN4ph04Rg', // ここにAPIキーを設定
+  auth: '', // ここにAPIキーを設定
 });
 
 // ファイルのアップロード関数
