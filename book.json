@@ -1,0 +1,19 @@
+{
+    "title": "GitBook Documentation",
+    "description": "GitBookプロジェクトの説明",
+    "author": "Author Name",
+    "language": "ja",
+    "plugins": [
+        "highlight",
+        "theme-default",
+        "expandable-chapters"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        }
+    },
+    "styles": {
+        "website": "styles/website.css"
+    }
+}

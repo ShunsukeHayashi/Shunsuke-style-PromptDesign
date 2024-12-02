@@ -1,0 +1,23 @@
+version: '3'
+services:
+  gitbook:
+    image: honkit/honkit:latest
+    platform: linux/arm64
+    ports:
+      - 4000:4000
+      - 35729:35729
+    volumes:
+      - .:/book
+    working_dir: /book
+    environment:
+      - NODE_ENV=development
+    command: sh -c "npm install && npx honkit serve"
+
+  plantuml:
+    image: plantuml/plantuml-server:latest
+    ports:
+      - 8080:8080
+
+networks:
+  default:
+    driver: bridge

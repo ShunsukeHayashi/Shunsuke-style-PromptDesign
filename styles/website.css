@@ -1,0 +1,165 @@
+/* GitBook スタイルカスタマイズ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* 基本フォント設定 */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* サイドバースタイル */
+.book-summary {
+    background: #f7f7f7;
+    border-right: 1px solid #e3e3e3;
+}
+
+.book-summary ul.summary li a {
+    padding: 10px 15px;
+    color: #364149;
+    font-size: 14px;
+}
+
+.book-summary ul.summary li.active > a {
+    color: #008cff;
+    font-weight: bold;
+    background: #e3f2fd;
+}
+
+/* 見出しスタイル */
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.markdown-section h1 {
+    font-size: 2em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #008cff;
+}
+
+.markdown-section h2 {
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #ddd;
+}
+
+/* コードブロックスタイル */
+.markdown-section pre {
+    background-color: #2d2d2d;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.markdown-section code {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+
+/* リンクスタイル */
+.markdown-section a {
+    color: #008cff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.markdown-section a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* テーブルスタイル */
+.markdown-section table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+.markdown-section table th,
+.markdown-section table td {
+    padding: 8px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+.markdown-section table tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+}
+
+.markdown-section table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+/* 引用スタイル */
+.markdown-section blockquote {
+    border-left: 4px solid #008cff;
+    color: #6a737d;
+    margin: 1em 0;
+    padding: 0 1em;
+    background-color: #f8f9fa;
+}
+
+/* コンテンツ幅の調整 */
+.page-inner {
+    max-width: 900px;
+    padding: 20px 50px;
+}
+
+/* 検索ボックス */
+#book-search-input {
+    padding: 15px;
+    background: #fff;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#book-search-input input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* ナビゲーションの改善 */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+}
+
+.navigation a {
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    color: #008cff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #e3f2fd;
+}
+
+/* モバイル対応 */
+@media screen and (max-width: 600px) {
+    .page-inner {
+        padding: 20px;
+    }
+    
+    .markdown-section {
+        padding: 15px 0;
+    }
+}
